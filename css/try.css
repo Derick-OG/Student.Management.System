@@ -1,0 +1,46 @@
+    button:hover{
+      background: darkred;
+      transition: background-color 0.4s;
+    }
+    a {
+      color: white;
+      text-decoration: none;
+    }
+    h5{
+      font-size: medium;
+    }
+    span{
+      color: black;
+      font-size: x-large;
+    }
+    .btn{
+      right: 10px;
+      top: 10px;
+      background: blue;
+      padding: 10px;
+      border: none;
+      width: fit-content;
+      border-radius: 4px;
+      color: white;
+      cursor: pointer;
+    }
+    .logout{
+      right: 10px;
+      top: 10px;
+      background: red;
+      padding: 10px;
+      border: none;
+      width: fit-content;
+      border-radius: 4px;
+      color: white;
+      cursor: pointer;
+    }
+    nav{
+      list-style: none;
+      display: flex;
+      direction: column;
+      position: absolute;
+      top: 30px;
+      right: 10px;
+      gap: 20px;
+    }
